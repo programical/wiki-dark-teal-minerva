@@ -1,0 +1,204 @@
+/* The CSS here is a mess, but the result looks nice :) */
+
+body, .mw-body, .overlay-enabled, #mw-mf-page-center,
+h2.oo-ui-labelElement-label, h2.oo-ui-labelElement-label:hover, .list-header {
+	background-color: #1E2128;
+	color: #DFDFDF;
+}
+
+.header-container.header-chrome, .toggle-list__list, .toggle-list-item,
+.toggle-list-item__label, .toggle-list__list, #mw-mf-page-left,
+#mw-mf-page-left ul li, #mw-mf-page-left ul li a, .hatnote, .dablink, .rellink,
+.content .infobox, .notification-count, 
+.mw-echo-ui-notificationsInboxWidget-toolbarWrapper,
+.mw-echo-ui-notificationItemWidget, .mw-echo-ui-notificationItemWidget:hover,
+.mw-parser-output .portal > ul, .mbox-small, .navbox-subgroup,
+.navbox-list, .ext-related-articles-card-list .ext-related-articles-card,
+.oo-ui-popupWidget-popup, .wikitable > tr > th, .wikitable > * > tr > th,
+.rt-tooltip, .mwe-popups-container, .mwe-popups-container p {
+	background-color: #23252E !important;
+	color: #DFDFDF !important;
+}
+
+.mw-echo-ui-notificationItemWidget, .mw-echo-ui-notificationItemWidget:hover,
+ul.mw-contributions-list li, ul.special li, .content .mw-parser-output > h2,
+.content .section-heading, .mw-parser-output .portal, .mbox-small, .navbox,
+.navbox-subgroup, .navbox-list, .navbox-abovebelow, .navbox-title,
+.navbox-group, .oo-ui-popupWidget-popup, div#editpage-specialchars,
+.list-header, .ns-special .content-header {
+	border-color: #13151A !important;
+}
+
+.navbox, .navbox-title, .navbox-group, .navbox-abovebelow {
+	background-color: #292933 !important;
+}
+
+.content .infobox th, .content .infobox td {
+	background-color: #1E2128 !important;
+	color: #DFDFDF !important;
+	border-color: #13151A !important;
+}
+
+#editpage-specialchars a {
+	background-color: inherit;
+	color: #7DB3A9;
+	border: none;
+}
+
+.mw-highlight .nn, .mw-highlight .nc {
+	color: #0079C8;
+}
+
+.mw-highlight pre {
+	box-shadow: inset 2.75em 0 0 #000000 !important;
+	border-color: #13151A;
+	background-color: #000000;
+}
+
+/* NO !important here, sometimes tables need to be colored differently */
+.wikitable td, .wikitable th {
+	background-color: #1E2128;
+	color: #DFDFDF;
+	border-color: #13151A;
+}
+
+.minerva__tab-container .minerva__tab:visited, 
+.minerva__tab-container .minerva__tab:hover, 
+.minerva__tab-container .minerva__tab:active, 
+.minerva__tab-container .minerva__tab.new, 
+.minerva__tab-container .minerva__tab.new:visited, 
+.minerva__tab-container .minerva__tab.new:active, 
+.minerva__tab-container .minerva__tab.new:hover,
+.mw-ui-icon-with-label-desktop, .mw-ui-icon-with-label-desktop:focus,
+.mw-ui-icon-with-label-desktop:active, .mw-ui-icon-with-label-desktop:visited,
+.mw-echo-ui-notificationItemWidget-content-message-header,
+.mw-echo-ui-notificationItemWidget-content-actions-timestamp,
+.mw-echo-ui-menuItemWidget > .oo-ui-buttonElement-button > .oo-ui-labelElement-label,
+.mbox-small, .ext-related-articles-card-list h3 a, .timestamp {
+	color: #DFDFDF !important;
+}
+
+#mw-mf-page-left ul li, .page-actions-menu, .content .infobox, .rt-tooltip {
+	border-color: #13151A !important;
+}
+
+#mw-mf-page-left ul li a:hover {
+	box-shadow: inset 4px 0 0 0 #628C84;
+}
+
+.toggle-list-item:hover, .toggle-list-item:hover .toggle-list-item__label {
+	background-color: #393E4D;
+	color: #DFDFDF;
+}
+
+.fmbox {
+	background-color: #3C3C3C !important;
+}
+
+.fmbox-warning {
+	background-color: #4D0F0F !important;
+}
+
+.branding-box, .minerva-footer img,
+.mw-echo-ui-notificationItemWidget-icon img, oo-ui-iconElement-icon,
+.haudio img {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+
+.ext-related-articles-card-list .ext-related-articles-card h3::after,
+.mwe-popups-container ::after {
+	opacity: 0;
+}
+
+.search-box .search, .oo-ui-textInputWidget .oo-ui-inputWidget-input {
+	background-color: #272A34;
+	color: #DFDFDF;
+	border-color: #13151A;
+}
+
+.page-list li, .topic-title-list li, .site-link-list li {
+	background-color: #23252E !important;
+	color: #DFDFDF !important;
+	border-color: #13151A !important;
+}
+
+.page-list li > a, .topic-title-list li > a, .site-link-list li > a,
+.page-summary h2, .page-summary h3 {
+	color: #DFDFDF !important;
+}
+
+.overlay.search-overlay, .overlay.search-overlay .search-content {
+	background-color: #1E2128 !important;
+	color: #DFDFDF !important;
+	border-color: #13151A !important;
+}
+
+.mp-bordered, .mw-parser-output #mp-topbanner {
+	background-color: #23252E !important;
+	color: #DFDFDF !important;
+	border-color: #13151A !important;
+}
+
+.mp-h2 {
+	color: #FFFFFF !important;
+	border-color: #13151A !important;
+}
+
+#mp-right .mp-h2 {
+	background-color: #292D33 !important;
+}
+
+#mp-left .mp-h2 {
+	background-color: #29332E !important;
+}
+
+#mp-tfp-h2 {
+	background-color: #2D2933 !important;
+}
+
+#mp-other-lower .mp-h2 {
+	background-color: #333333 !important;
+}
+
+a, #mw-mf-page-left ul.hlist li a, .hatnote a, .dablink a, .rellink a {
+	color: #7DB3A9;
+}
+
+a:visited, #mw-mf-page-left ul.hlist li a:visited, .hatnote a:visited,
+.dablink a:visited, .rellink a:visited {
+	color: #628C84;
+}
+
+.mw-ui-button, .toc,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
+.oo-ui-panelLayout-framed,
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle {
+	background-color: #2B2F3A;
+	color: #DFDFDF;
+	border-color: #13151A;
+}
+
+.mw-ui-button:hover, .toc:hover, .toggle-list-item:hover,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover,
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:active,
+.toggle-list-item:hover .toggle-list-item__label,
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:hover,
+.oo-ui-dropdownWidget.oo-ui-widget-enabled .oo-ui-dropdownWidget-handle:active {
+	background-color: #393E4D !important;
+	color: #DFDFDF;
+	border-color: #13151A;
+}
+
+.minerva-footer {
+	background-color: #23252E;
+	border-color: #13151A;
+}
+
+.last-modified-bar {
+	border-color: #13151A;
+}
+
+footer .hlist li::after, .mw-footer .hlist li::after {
+	color: #628C84;
+}
