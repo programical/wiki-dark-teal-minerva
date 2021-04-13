@@ -15,6 +15,7 @@ h2.oo-ui-labelElement-label, h2.oo-ui-labelElement-label:hover, .list-header {
 .mw-parser-output .portal > ul, .mbox-small, .navbox-subgroup,
 .navbox-list, .ext-related-articles-card-list .ext-related-articles-card,
 .oo-ui-popupWidget-popup, .wikitable > tr > th, .wikitable > * > tr > th,
+table td, table th,
 .rt-tooltip, .mwe-popups-container, .mwe-popups-container p {
 	background-color: #23252E !important;
 	color: #DFDFDF !important;
