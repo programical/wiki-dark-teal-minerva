@@ -203,3 +203,7 @@ a:visited, #mw-mf-page-left ul.hlist li a:visited, .hatnote a:visited,
 footer .hlist li::after, .mw-footer .hlist li::after {
 	color: #628C84;
 }
+
+pre .ss {
+	color: #6183a8 !important;
+}
