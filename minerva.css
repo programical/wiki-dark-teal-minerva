@@ -15,8 +15,9 @@ h2.oo-ui-labelElement-label, h2.oo-ui-labelElement-label:hover, .list-header {
 .mw-parser-output .portal > ul, .mbox-small, .navbox-subgroup,
 .navbox-list, .ext-related-articles-card-list .ext-related-articles-card,
 .oo-ui-popupWidget-popup, .wikitable > tr > th, .wikitable > * > tr > th,
-table td, table th,
-.rt-tooltip, .mwe-popups-container, .mwe-popups-container p {
+table td, table th, .rt-tooltip, .mwe-popups-container, .mwe-popups-container p,
+.overlay-content, .language-searcher .panel, .overlay-header-container,
+.overlay-footer-container, .editOptions {
 	background-color: #23252E !important;
 	color: #DFDFDF !important;
 }
@@ -26,7 +27,7 @@ ul.mw-contributions-list li, ul.special li, .content .mw-parser-output > h2,
 .content .section-heading, .mw-parser-output .portal, .mbox-small, .navbox,
 .navbox-subgroup, .navbox-list, .navbox-abovebelow, .navbox-title,
 .navbox-group, .oo-ui-popupWidget-popup, div#editpage-specialchars,
-.list-header, .ns-special .content-header {
+.list-header, .ns-special .content-header, .header-container, .overlay .panel {
 	border-color: #13151A !important;
 }
 
@@ -75,7 +76,8 @@ ul.mw-contributions-list li, ul.special li, .content .mw-parser-output > h2,
 .mw-echo-ui-notificationItemWidget-content-message-header,
 .mw-echo-ui-notificationItemWidget-content-actions-timestamp,
 .mw-echo-ui-menuItemWidget > .oo-ui-buttonElement-button > .oo-ui-labelElement-label,
-.mbox-small, .ext-related-articles-card-list h3 a, .timestamp {
+.mbox-small, .ext-related-articles-card-list h3 a, .timestamp,
+.language-searcher .site-link-list a .autonym {
 	color: #DFDFDF !important;
 }
 
