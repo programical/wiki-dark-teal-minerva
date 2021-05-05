@@ -51,7 +51,7 @@ ul.mw-contributions-list li, ul.special li, .content .mw-parser-output > h2,
 	color: #0079C8;
 }
 
-.mw-highlight pre {
+.mw-highlight pre, .mw-highlight {
 	box-shadow: inset 2.75em 0 0 #000000 !important;
 	border-color: #13151A;
 	background-color: #000000;
