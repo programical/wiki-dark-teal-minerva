@@ -17,7 +17,8 @@ h2.oo-ui-labelElement-label, h2.oo-ui-labelElement-label:hover, .list-header {
 .oo-ui-popupWidget-popup, .wikitable > tr > th, .wikitable > * > tr > th,
 table td, table th, .rt-tooltip, .mwe-popups-container, .mwe-popups-container p,
 .overlay-content, .language-searcher .panel, .overlay-header-container,
-.overlay-footer-container, .editOptions {
+.overlay-footer-container, .editOptions, .mw-parser-output .documentation,
+.mw-parser-output .documentation-metadata {
 	background-color: #23252E !important;
 	color: #DFDFDF !important;
 }
@@ -164,7 +165,8 @@ ul.mw-contributions-list li, ul.special li, .content .mw-parser-output > h2,
 	background-color: #333333 !important;
 }
 
-a, #mw-mf-page-left ul.hlist li a, .hatnote a, .dablink a, .rellink a {
+a, #mw-mf-page-left ul.hlist li a, .hatnote a, .dablink a, .rellink a,
+a:not([href]) {
 	color: #7DB3A9;
 }
 
